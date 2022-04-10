@@ -2,6 +2,7 @@
 #fungsinya adalah 1/betha e^(-x/betha)
 
 #5b
+set.seed(1)
 x = 10
 b = 5
 y = rexp(x, 5)
