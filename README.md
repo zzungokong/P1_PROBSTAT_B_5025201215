@@ -77,13 +77,9 @@ Mean dan varians Distribusi Poison adalah lambda = 4.5
 
 ## Nomor 4
 ### 4a
-Langsung subtitusi ke fungsi ```dchisq``` dengan ```degree of freedom = 10``` dan ```x = 2```
-```r
-dof = 10
-x = 2
-dchisq(2, 10)
-#hasil : [1] 0.007664155
-```
+Fungsi distribusi chisquare adalah   
+![image](https://latex.codecogs.com/svg.image?\frac{1}{2^{\frac{v}{2}\Gamma(\frac{v}{2})}}x^{\frac{v}{2}-1}e^{\frac{-x}{2}})
+
 ### 4b
 Berikut grafik histogram untuk 100 data random  
 ![image](https://media.discordapp.net/attachments/869563207658913802/962598769285795870/Screen_Shot_2022-04-10_at_1.23.41_PM.png)
@@ -92,3 +88,53 @@ Berikut grafik histogram untuk 100 data random
 Mean dari Distribusi chisquare adalah v = 10  
 Varians dari Distribusi chisquare adalah 2v = 20
 
+## Nomor 5
+### 5a
+Fungsi Distribusi eksponen adalah   
+![image](https://latex.codecogs.com/svg.image?\frac{1}{\beta}e^{\frac{-x}{\beta}})
+
+### 5b
+Berikut histogram untuk setiap nilai x
+```x=10```  
+![image](https://media.discordapp.net/attachments/869563207658913802/962688566918545418/Screen_Shot_2022-04-10_at_7.19.16_PM.png)
+```x=100```  
+![image](https://media.discordapp.net/attachments/869563207658913802/962688567283417168/Screen_Shot_2022-04-10_at_7.20.08_PM.png)
+```x=1000```  
+![image](https://media.discordapp.net/attachments/869563207658913802/962688567484772382/Screen_Shot_2022-04-10_at_7.20.22_PM.png)
+```x=10000```  
+![image](https://media.discordapp.net/attachments/869563207658913802/962688567690268712/Screen_Shot_2022-04-10_at_7.20.34_PM.png)
+
+### 5c
+Mean dari Distribusi Eksponensial adalah beta = 3
+Varians dari Distribusi Eksponensial adalah beta^2 = 9
+
+## Nomor 6
+### 6a
+Berikut hasil plottingan data random yang telah dirubah ke nilai ```Z```   
+![image](https://media.discordapp.net/attachments/869563207658913802/962695952005742592/Screen_Shot_2022-04-10_at_7.49.55_PM.png)
+Dengan syntax code seperti ini
+```r
+mean = 50
+sd = 8
+x <- rnorm(100, mean, sd)
+rata = mean(x)
+x1 = floor(rata)
+x2 = x1+1
+#print(x)
+z = (x-mean)/8
+#print(z)
+plot(z)
+print(x1)
+#Hasil : [1] 49
+print(x2)
+#Hasil : [1] 50
+print(rata)
+#Hasil : [1] 49.7771
+```
+### 6b
+Saya pakai data yang digenerate sebelum dicari nilai ```Z``` nya
+berikut hasil histogram dengan ```breaks=50```  
+![image](https://cdn.discordapp.com/attachments/869563207658913802/962697997551026236/Screen_Shot_2022-04-10_at_7.58.02_PM.png)
+
+### 6c
+Varian dari Distribusi Normal adalah (sd)^2 = 64
