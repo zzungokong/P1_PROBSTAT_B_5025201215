@@ -73,3 +73,5 @@ mean(z)
 ```
 ### 3c
 Tidak terpaut jauh dengan ekspetasi
+### 3d
+Mean dan varians Distribusi Poison adalah lambda = 4.5
