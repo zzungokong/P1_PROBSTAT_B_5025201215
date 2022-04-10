@@ -28,7 +28,7 @@ Berikut grafik histogramnya dari x = 0 hingga 10
 ![image](https://discord.com/channels/@me/869563207658913802/962587502332489779)
 
 ### 1e
-Mean Distribusi Geometrik adalah 1/p = 1/0.2 = 5
+Mean Distribusi Geometrik adalah 1/p = 1/0.2 = 5  
 Varians Distribusi Geometrik adalah q/(p^2) = 0.8/(0.2^2)= 20  
 ## Nomor 2
 ### 2a
@@ -42,8 +42,8 @@ dbinom(x, n, p)
 ```
 ### 2b
 Berikut grafik histogramnya dari x = 0 hingga 20
-![image](https://discord.com/channels/@me/869563207658913802/962587434531565598)
+![image](https://discord.com/channels/744789471609749566/744789471609749570/962589560183853056)
 
 ### 2c
-Mean dari Distribusi Binomial b(x, n, p) adalah np = 20*0.2 = 4
-Varians dari Distribusi Binomial b(x, n, p) adalah npq = 20*0.2*0.8 = 3.2
+Mean dari Distribusi Binomial b(x, n, p) adalah np = 20 \* 0.2 = 4   
+Varians dari Distribusi Binomial b(x, n, p) adalah npq = 20 \* 0.2 \* 0.8 = 3.2
