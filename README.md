@@ -1,5 +1,6 @@
 # P1_PROBSTAT_B_5025201215
 Praktikum Probstat Vania
+INI KENAPA GAMBARNYA GX MUNCULLLLL
 
 ## Nomor 1
 ### 1a
@@ -47,3 +48,28 @@ Berikut grafik histogram untuk 10000 data random
 ### 2c
 Mean dari Distribusi Binomial b(x, n, p) adalah np = 20 \* 0.2 = 4   
 Varians dari Distribusi Binomial b(x, n, p) adalah npq = 20 \* 0.2 \* 0.8 = 3.2
+
+## Nomor 3
+### 3a
+Langsung subtitusi ke fungsi ```dpois``` untuk menghitung peluang terdapat 4 pasien yang sembuh
+```r
+lambda = 4.5
+x = 6
+dpois(x, lambda)
+#hasil : [1] 0.1281201
+```
+### 3b
+Berikut grafik histogram untuk 365 hari 
+![image](https://discord.com/channels/@me/869563207658913802/962594472330403850)
+dengan peluang 6 bayi per harinya adalah
+```r
+set.seed(0)
+n = 365
+y = rpois(n, lambda)
+hist(y)
+z = (rpois(n, lambda) == 6)
+mean(z)
+#hasil : [1] 0.1342466
+```
+### 3c
+Tidak terpaut jauh dengan ekspetasi
