@@ -19,7 +19,7 @@ y = dgeom(x, 0.2)
 plot(x, y, col="blue")
 
 #1e
-#Mean dari Distribusi Geometrik adalah (1-p)/p dan variansnya adalah (1-p)/p^2
+#Mean dari Distribusi Geometrik adalah 1/p dan variansnya adalah (1-p)/p^2
 
 
 
