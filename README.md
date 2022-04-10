@@ -25,7 +25,7 @@ mean(vec)
 ### 1c
 Hasilnya tidak terpaut jauh. Namun karena ```1b``` menggunakan fungsi random, maka tentu hasilnya berbeda beda
 ### 1d
-Berikut grafik histogram untuk 10000 data random
+Berikut grafik histogram untuk 10000 data random  
 ![oke](https://discord.com/channels/@me/869563207658913802/962592407990435870)
 
 ### 1e
@@ -42,7 +42,7 @@ dbinom(x, n, p)
 #hasil : [1] 0.2181994
 ```
 ### 2b
-Berikut grafik histogram untuk 10000 data random
+Berikut grafik histogram untuk 10000 data random  
 ![image](https://discord.com/channels/@me/869563207658913802/962593538506371112)
 
 ### 2c
@@ -75,3 +75,21 @@ mean(z)
 Tidak terpaut jauh dengan ekspetasi
 ### 3d
 Mean dan varians Distribusi Poison adalah lambda = 4.5
+
+## Nomor 4
+### 4a
+Langsung subtitusi ke fungsi ```dchisq``` dengan ```degree of freedom = 10``` dan ```x = 2```
+```r
+dof = 10
+x = 2
+dchisq(2, 10)
+#hasil : [1] 0.007664155
+```
+### 4b
+Berikut grafik histogram untuk 100 data random  
+![image](https://discord.com/channels/@me/869563207658913802/962598769604579419)
+
+### 4c
+Mean dari Distribusi chisquare adalah v = 10  
+Varians dari Distribusi chisquare adalah 2v = 20
+
