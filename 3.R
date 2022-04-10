@@ -15,4 +15,4 @@ mean(z)
 #Tidak terpaut jauh
 
 #3d
-#Mean dan varians Distribusi Poison adalah lambda * t
+#Mean dan varians Distribusi Poison adalah lambda
