@@ -1,6 +1,5 @@
 # P1_PROBSTAT_B_5025201215
 Praktikum Probstat Vania
-INI KENAPA GAMBARNYA GX MUNCULLLLL
 
 ## Nomor 1
 ### 1a
@@ -26,7 +25,7 @@ mean(vec)
 Hasilnya tidak terpaut jauh. Namun karena ```1b``` menggunakan fungsi random, maka tentu hasilnya berbeda beda
 ### 1d
 Berikut grafik histogram untuk 10000 data random  
-![oke](https://discord.com/channels/@me/869563207658913802/962592407990435870)
+![alt="ff"](https://media.discordapp.net/attachments/869563207658913802/962592407390683176/Screen_Shot_2022-04-10_at_12.58.29_PM.png)
 
 ### 1e
 Mean Distribusi Geometrik adalah 1/p = 1/0.2 = 5  
@@ -43,7 +42,7 @@ dbinom(x, n, p)
 ```
 ### 2b
 Berikut grafik histogram untuk 10000 data random  
-![image](https://discord.com/channels/@me/869563207658913802/962593538506371112)
+![image](https://media.discordapp.net/attachments/869563207658913802/962593537730416690/Screen_Shot_2022-04-10_at_1.02.57_PM.png)
 
 ### 2c
 Mean dari Distribusi Binomial b(x, n, p) adalah np = 20 \* 0.2 = 4   
@@ -60,7 +59,7 @@ dpois(x, lambda)
 ```
 ### 3b
 Berikut grafik histogram untuk 365 hari 
-![image](https://discord.com/channels/@me/869563207658913802/962594472330403850)
+![image](https://media.discordapp.net/attachments/869563207658913802/962594471688695878/Screen_Shot_2022-04-10_at_1.06.40_PM.png)  
 dengan peluang 6 bayi per harinya adalah
 ```r
 set.seed(0)
@@ -87,7 +86,7 @@ dchisq(2, 10)
 ```
 ### 4b
 Berikut grafik histogram untuk 100 data random  
-![image](https://discord.com/channels/@me/869563207658913802/962598769604579419)
+![image](https://media.discordapp.net/attachments/869563207658913802/962598769285795870/Screen_Shot_2022-04-10_at_1.23.41_PM.png)
 
 ### 4c
 Mean dari Distribusi chisquare adalah v = 10  
