@@ -24,8 +24,8 @@ mean(vec)
 ### 1c
 Hasilnya tidak terpaut jauh. Namun karena ```1b``` menggunakan fungsi random, maka tentu hasilnya berbeda beda
 ### 1d
-Berikut grafik histogramnya dari x = 0 hingga 10
-![image](https://discord.com/channels/@me/869563207658913802/962587502332489779)
+Berikut grafik histogram untuk 10000 data random
+![oke](https://discord.com/channels/@me/869563207658913802/962592407990435870)
 
 ### 1e
 Mean Distribusi Geometrik adalah 1/p = 1/0.2 = 5  
@@ -41,8 +41,8 @@ dbinom(x, n, p)
 #hasil : [1] 0.2181994
 ```
 ### 2b
-Berikut grafik histogramnya dari x = 0 hingga 20
-![image](https://discord.com/channels/744789471609749566/744789471609749570/962589560183853056)
+Berikut grafik histogram untuk 10000 data random
+![image](https://discord.com/channels/@me/869563207658913802/962593538506371112)
 
 ### 2c
 Mean dari Distribusi Binomial b(x, n, p) adalah np = 20 \* 0.2 = 4   
