@@ -23,6 +23,6 @@ mean(vec)
 Hasilnya tidak terpaut jauh. Namun karena ```1b``` menggunakan fungsi random, maka tentu hasilnya berbeda beda
 ### 1d  
 Mean Distribusi Geometrik adalah
-![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bq%7D%7Bp%7D)
-Varians Distribusi Geometrik adalah 
+![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7Bp%7D)  
+Varians Distribusi Geometrik adalah
 ![equation](https://latex.codecogs.com/gif.latex?%5Cfrac%7Bq%7D%7Bp%5E2%7D)
