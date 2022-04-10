@@ -14,9 +14,10 @@ mean(vec)
 #Tidak terpaut jauh. Dari 10000 bilangan
 
 #1d
-x = seq(0, 10, by=1)
-y = dgeom(x, 0.2)
-plot(x, y, col="blue")
+set.seed(10)
+x = 10000
+y = rgeom(x, 0.2)
+hist(y)
 
 #1e
 #Mean dari Distribusi Geometrik adalah 1/p dan variansnya adalah (1-p)/p^2
