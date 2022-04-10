@@ -5,11 +5,12 @@ p = 0.2
 dbinom(x, n, p)
 
 #2b
-x = seq(0, 20, by=1)
+set.seed(10)
+x = 10000
 n = 20
 p = 0.2
-y = dbinom(x, n, p)
-plot(x, y, col="blue")
+y = rbinom(x, n, p)
+hist(y)
 
 #2c
 #Mean dari Distribusi Binomial b(x, n, p) adalah np
